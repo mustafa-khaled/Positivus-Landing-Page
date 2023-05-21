@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Positivus-Landing-Page/static/css/main.dee521c5.css",
+    "main.js": "/Positivus-Landing-Page/static/js/main.9004fff0.js",
+    "static/media/fa-solid-900.ttf": "/Positivus-Landing-Page/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/Positivus-Landing-Page/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Positivus-Landing-Page/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/Positivus-Landing-Page/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Positivus-Landing-Page/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Home.png": "/Positivus-Landing-Page/static/media/Home.4d095f43251d5ece82ef.png",
+    "static/media/contactImage.png": "/Positivus-Landing-Page/static/media/contactImage.24ae71dbceffdb383654.png",
+    "static/media/tracing.png": "/Positivus-Landing-Page/static/media/tracing.94ca71fc4d3d29c9a35a.png",
+    "static/media/content.png": "/Positivus-Landing-Page/static/media/content.59b0b5187a0c1a5d7bdd.png",
+    "static/media/fa-regular-400.woff2": "/Positivus-Landing-Page/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/markting.png": "/Positivus-Landing-Page/static/media/markting.ad05f6669b7f2d174a3e.png",
+    "static/media/search_engine.png": "/Positivus-Landing-Page/static/media/search_engine.9331bf88f5d1a5413e29.png",
+    "static/media/puy_click.png": "/Positivus-Landing-Page/static/media/puy_click.0975552852190ad33bb1.png",
+    "static/media/social.png": "/Positivus-Landing-Page/static/media/social.84f160a6f91501e51392.png",
+    "static/media/about.png": "/Positivus-Landing-Page/static/media/about.d0a2f7f6f9c7a2fa77d3.png",
+    "static/media/Person1.png": "/Positivus-Landing-Page/static/media/Person1.27197040ea7eee19dd24.png",
+    "static/media/Person3.png": "/Positivus-Landing-Page/static/media/Person3.183ebe03a6bb7ed36c4e.png",
+    "static/media/person4.png": "/Positivus-Landing-Page/static/media/person4.0b88bf4e38ec0a6f5956.png",
+    "static/media/Person 6.png": "/Positivus-Landing-Page/static/media/Person 6.ff2ce6b9065fad2a3081.png",
+    "static/media/Person2.png": "/Positivus-Landing-Page/static/media/Person2.9d5b1748599b8198a9aa.png",
+    "static/media/Person5.png": "/Positivus-Landing-Page/static/media/Person5.cf05bdb7b1d966a05758.png",
+    "static/media/fa-v4compatibility.ttf": "/Positivus-Landing-Page/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Positivus-Landing-Page/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Positivus-Landing-Page/index.html",
+    "main.dee521c5.css.map": "/Positivus-Landing-Page/static/css/main.dee521c5.css.map",
+    "main.9004fff0.js.map": "/Positivus-Landing-Page/static/js/main.9004fff0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dee521c5.css",
+    "static/js/main.9004fff0.js"
+  ]
+}
