@@ -1,0 +1,116 @@
+.services_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.services_container .box {
+  padding: 20px;
+  width: calc(95% / 2);
+  color: var(--text);
+  height: 250px;
+  background-color: #eee;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 2px solid var(--text);
+  box-shadow: 0px 5px 0px 0px var(--text);
+  cursor: pointer;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.box_text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+}
+
+.services_container .box:hover {
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+.box_text div i {
+  background-color: var(--text);
+  color: var(--secondary-color);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  margin-right: 20px;
+  padding: 10px 12px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.box_text div button {
+  color: var(--text);
+  border: none;
+  background-color: transparent;
+}
+
+/* Spical Boxes Color  */
+
+.box_two,
+.box_six {
+  background-color: var(--secondary-color) !important;
+}
+
+.box_two h2,
+.box_six h2 {
+  background-color: var(--color-bg) !important;
+}
+
+.box_seven,
+.box_three {
+  background-color: var(--text) !important;
+}
+
+.box_seven button,
+.box_three button {
+  color: var(--color-bg) !important;
+}
+
+.box_seven i,
+.box_three i {
+  background-color: var(--color-bg) !important;
+  color: var(--text) !important;
+}
+
+.box_three h2 {
+  background-color: var(--color-bg) !important;
+}
+
+@media (max-width: 1000px) {
+  .services_container .box {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .services_container .box img {
+    margin-top: 20px;
+    width: 150px;
+  }
+}

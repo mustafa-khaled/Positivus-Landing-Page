@@ -1,0 +1,123 @@
+.footer {
+  background-color: var(--text);
+  color: var(--color-bg);
+  padding: 20px;
+  border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -ms-border-radius: 30px 30px 0 0;
+  -o-border-radius: 30px 30px 0 0;
+}
+
+.footer p {
+  color: var(--color-bg);
+}
+
+.headFooter,
+.headFooter ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerLogo {
+  width: 150px;
+}
+
+.headFooter ul li i {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.headFooter ul li i:hover {
+  opacity: 0.7;
+}
+
+.footerSearch {
+  padding: 50px 0;
+}
+
+.footerSearch h4 {
+  background-color: var(--secondary-color);
+  color: var(--text);
+  width: fit-content;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  margin: 20px 0;
+}
+
+.footerInputContainer {
+  background-color: #292a32;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+}
+
+.footerSearch .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerSearch input,
+button {
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+
+.footerSearch button {
+  background-color: var(--secondary-color);
+  color: var(--text);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.footerSearch button:hover {
+  color: var(--secondary-color);
+  background-color: var(--text);
+}
+
+.copyRight {
+  padding: 20px 0;
+  border-top: 1px solid var(--color-bg);
+}
+
+.copyRight a {
+  font-weight: bold;
+  color: var(--secondary-color);
+  letter-spacing: 2px;
+}
+
+@media (max-width: 1000px) {
+  .headFooter,
+  .footerSearch .content {
+    flex-direction: column;
+  }
+
+  .headFooter ul li i {
+    margin: 20px;
+  }
+
+  .footerSearch {
+    text-align: center;
+  }
+
+  .footerSearch h4 {
+    margin: 20px auto;
+  }
+
+  .footerInputContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+export { default as Home } from "./home/Home";
+export { default as Brands } from "./brands/Brands";
+export { default as Services } from "./services/Services";
+export { default as Navbar } from "./navbar/Navbar";
+export { default as About } from "./about/About";
+export { default as CaseStudy } from "./caseStudy/CaseStudy";
+export { default as WorkProcess } from "./workProces/WorkProcess";
+export { default as Team } from "./team/Team";
+export { default as Testimonials } from "./testimonials/Testimonials";
+export { default as Contact } from "./contact/Contact";
+export { default as Footer } from "./footer/Footer";

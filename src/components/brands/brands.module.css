@@ -1,0 +1,20 @@
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .brands {
+    flex-wrap: wrap;
+  }
+  .brands img {
+    margin: 20px 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .brands {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,57 @@
+.formStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  overflow: hidden;
+}
+
+.formStyle img {
+  max-width: 600px;
+  position: relative;
+  right: -20%;
+}
+
+.input_holder {
+  width: 50%;
+}
+
+.input_holder label {
+  display: block;
+  margin: 10px 0;
+}
+
+.input_holder input,
+.input_holder textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border: 1px solid var(--text);
+  outline: none;
+}
+
+.input_holder textarea {
+  resize: none;
+  height: 100px;
+}
+
+.input_holder div .error {
+  color: #f55959;
+  margin-bottom: 20px;
+}
+@media (max-width: 1000px) {
+  .formStyle img {
+    display: none;
+  }
+  .input_holder {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+.swiper_container {
+  background-color: var(--text);
+  padding: 50px 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.swiper_container .description {
+  color: var(--color-bg);
+  width: 95%;
+  position: relative;
+  padding: 30px 20px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 30px auto;
+}
+
+.swiper_container .description::before,
+.swiper_container .description::after {
+  content: "";
+  position: absolute;
+  border: 20px solid;
+}
+
+.swiper_container .description::before {
+  bottom: -40px;
+  left: 30px;
+  border-color: var(--secondary-color) transparent transparent transparent;
+}
+
+.swiper_container .description::after {
+  bottom: -34px;
+  left: 33px;
+  border: 17px solid;
+  border-color: var(--text) transparent transparent transparent;
+}
+
+.name {
+  color: var(--secondary-color);
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}

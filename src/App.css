@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+body {
+  background: var(--color-bg);
+  font-family: "Rajdhani", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main_heading {
+  background-color: var(--secondary-color);
+  font-size: 30px;
+  color: var(--text);
+  padding: 5px;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  width: fit-content;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  line-height: var(--line-height);
+  color: var(--text);
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: var(--text);
+  color: var(--color-bg);
+  border: none;
+  border-radius: var(--border-radius);
+  -webkit-border-radius: var(--border-radius);
+  -moz-border-radius: var(--border-radius);
+  -ms-border-radius: var(--border-radius);
+  -o-border-radius: var(--border-radius);
+  border: 1px solid var(--text);
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.btn:hover {
+  background-color: var(--color-bg);
+  color: var(--text);
+}
+
+i,
+button {
+  cursor: pointer;
+}
+
+.section_margin {
+  margin-top: 80px;
+}
+
+.fa-times {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transition-delay: 1s;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+}
+
+.text {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.text h2 {
+  margin-right: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 500px) {
+  .text {
+    flex-direction: column;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  .text h2 {
+    margin: 20px auto;
   }
+}
+
+/* Swiper  */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: var(--secondary-color) !important;
+  font-size: 25px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--secondary-color) !important;
 }

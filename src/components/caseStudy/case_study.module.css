@@ -1,0 +1,60 @@
+.boxes {
+  padding: 20px;
+  background-color: var(--text);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 100px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.box {
+  padding: 50px;
+}
+
+.boxes p {
+  color: var(--color-bg) !important;
+  margin-bottom: 30px;
+}
+
+.icon {
+  color: var(--secondary-color);
+}
+
+.icon i {
+  margin-left: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  font-size: 30px;
+}
+
+.custom_border {
+  position: relative;
+}
+
+.custom_border::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2px;
+  height: 50%;
+  background-color: var(--color-bg);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+@media (max-width: 740px) {
+  .boxes {
+    gap: 30px;
+  }
+}
